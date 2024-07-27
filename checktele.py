@@ -293,8 +293,7 @@ async def _(event):
                         f.write(f"\n{username}")
                 except Exception as eee:
                     await eighthon.send_message(
-                    event.chat_id,
-                    f"""خطأ مع {username} , الخطأ :{str(eee)}""",
+                    event.chat_id, f"""خطأ مع {username} , الخطأ :{str(eee)}""",
                     if "A wait of" in str(eee):
                         break
                     else:
