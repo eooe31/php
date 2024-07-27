@@ -61,9 +61,9 @@ def gen_user(choice):
             f3 = c+d+d+d+d+c
             f4 = c+d+d+c+c+c
             f5 = c+c+d+d+d+c
-             f = f1,f2,f3,f4,f5
-             f = random.choice(f)
-             username = f
+            f = f1,f2,f3,f4,f5
+            f = random.choice(f)
+            username = f
         else:
             pass
     if choice == "2":
