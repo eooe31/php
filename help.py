@@ -126,18 +126,24 @@ tele_checker2 = '''
 ━━━━━━━━━━━━━━━━━━━━━━━
 Types :
 
-1 :  zxxxxz - zzxxxx - xxxxzz - zxzzxz
+1 :  سداسي عشوائي 
 
-2 : zx777 - zs8888 - z999s
+2 : سداسي وسط ssccss
 
-3 : xxxsa - soaaa
+3 : سداسي ارقام s777ss
 
-4 : zvxxx - axxxz
+4 : خماسي مخربط
 
-5 : aaase - oaaar
+5 : rxxrxx - xxccx
 
-6 : x_s_a - z_s_7
+6 : ثلاثي بوت
 
-7 : sx_ss - x_666
+7 : zcxxx - zxxxc
+
+8 : رباعي HFH_H - S3S_S
+
+9 : رباعي s3_s3 - xc_xc 
+
+التجربه اكتب { `تيست` }
 ━━━━━━━━━━━━━━━━━━━━━━━
 '''
