@@ -111,7 +111,7 @@ def gen_user(choice):
         f1 = c+d+d1+d1+d1
         f2 = c+d1+d1+d1+d
         f3 = c+d1+d+d+d
-        f = f1،f2,f3
+        f = f1,f2,f3
         f = random.choice(f)
         username =f
         if username in banned[0]:
@@ -121,7 +121,7 @@ def gen_user(choice):
         	f1 = c+d+d1+d1+d1
             f2 = c+d1+d1+d1+d
             f3 = c+d1+d+d+d
-            f = f1،f2,f3
+            f = f1,f2,f3
             f = random.choice(f)
         	username =f
         else:
