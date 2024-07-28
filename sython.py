@@ -79,10 +79,14 @@ async def _(event):
     end = datetime.datetime.now()
     ms = (end - start).microseconds / 1000
     await event.edit(f'''
-𝚂𝙾𝚄𝚁𝙲𝙴𝙼𝙰𝚇 𝙸𝚂 𝚁𝚄𝙽𝙽𝙸𝙽𝙶 ⏎
-࿘ 𝐃𝐀𝐓𝐄 : `{m9zpi}`
+**☆ 𝑊𝐸𝐿𝐶𝑂𝑀𝐸 𝑇𝑂 𝑆𝑂𝐔𝑅𝐶𝐸 Andrew ❣️
+☆ VERSION : 4.0 bat source🦇
+☆ PING : `{ms}`
+☆ DATE : `{m9zpi}`
 ☆ ID : `{event.sender_id}`
--Send `.eo`
+☆ source Andy  : @isAndreew = @pp6zz = @h999q **
+
+-قـم بأرسال `.الاوامر`
 ''')
 
 
@@ -117,11 +121,11 @@ async def OwnerStart(event):
     if sender.id == ownerhson_id :
         order = await event.reply('مرحبا ايها المطور')
 
-@sython.on(events.NewMessage(outgoing=True, pattern=r"\.xo"))
+@sython.on(events.NewMessage(outgoing=True, pattern=r"\.اعادة تشغيل"))
 async def update(event):
-    await event.edit("• The source is being restarted..\n• Wait 1-2 minutes.")
+    await event.edit("• جارِ اعادة تشغيل السورس ..\n• انتضر 1-2 دقيقة  .")
     await sython.disconnect()
-    await sython.send_message("me", "`Source reboot completed!`")
+    await sython.send_message("me", "`اكتملت اعادة تشغيل السورس !`")
 
 @sython.on(events.NewMessage(outgoing=True, pattern=r"\.تجميع المليار"))
 async def _(event):
